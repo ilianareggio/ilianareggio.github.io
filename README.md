@@ -14,7 +14,7 @@ Theodor-W.-Adorno-Platz 3
 Tel.: 06979833851
 
 
-### [**_Research_**](/_posts/research.md)
+### **_Research_**
 My [CV](IlianaReggio_CV_Feb2019.pdf)
 
 ### **_Teaching_**
