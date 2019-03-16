@@ -14,7 +14,7 @@
 
 * Micro vs. Macro Consumption Data: The Cyclical Properties of the Consumer Expenditure Survey, with Rolf Campos and Dionisio García-Píriz,  Applied Economics, 45(26), 2013, 3778-3785. [Journal version](http://www.tandfonline.com/doi/full/10.1080/00036846.2012.732689) WP version
 
-* The influence of the mother’s power on her child’s labor in Mexico, Journal of Development Economics 96(1), 2011, 95-105. [Journal version](http://ideas.repec.org/a/eee/deveco/v96y2011i1p95-105.html) WP version
+* The influence of the mother’s power on her child’s labor in Mexico, Journal of Development Economics 96(1), 2011, 95-105. [Journal version](https://www.sciencedirect.com/science/article/pii/S0304387810000738) WP version
 
 * On the Endogeneity of Exchange Rate Regimes, with Eduardo Levy Yeyati and Federico Sturzenegger. European Economic Review 54(5), 2010, 659-677. [Journal version](http://www.sciencedirect.com/science/article/pii/S0014292109001251) WP version
 
