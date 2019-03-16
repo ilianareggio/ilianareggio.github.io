@@ -3,7 +3,7 @@ My research interests are
 -->
 
 
-![](iliana_pic.jpg){:height="200px" width="200px"}
+![](myLib/iliana_pic.jpg){:height="200px" width="200px"}
 
 I am visiting [Goethe University Frankfurt](http://www.uni-frankfurt.de) this year.
 
@@ -20,7 +20,7 @@ Tel.: 06979833851
 
 
 ### **_[Research](research.md)_**
-My [CV](IlianaReggio_CV_March2019.pdf)
+My [CV](myLib/IlianaReggio_CV_March2019.pdf)
 
 ### **_[Teaching](teaching.md)_**
 
