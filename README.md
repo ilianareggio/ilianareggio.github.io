@@ -19,10 +19,7 @@ My [CV](IlianaReggio_CV_March2019.pdf)
 
 ### **_[Teaching](teaching.md)_**
 
-Here:
-<> (This is a comment, it will not be included)
 
-And here:
 <!---
 your comment goes here
 and here
