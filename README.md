@@ -15,7 +15,7 @@ Tel.: 06979833851
 
 
 ### **_Research_**
-[Iliana](iliana_pic.jpg)
+[Research](./_posts/research.md)
 My [CV](IlianaReggio_CV_Feb2019.pdf)
 
 ### **_Teaching_**
