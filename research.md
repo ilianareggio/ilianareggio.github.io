@@ -2,11 +2,11 @@
 
 **Publications**
 
-* Alternative Diff-in-Diffs Estimators with Several Pretreatment Periods (with Ricardo Mora), Econometric Reviews, forthcoming.
+* Alternative Diff-in-Diffs Estimators with Several Pretreatment Periods (with Ricardo Mora), Econometric Reviews, [forthcoming](http://www.tandfonline.com/doi/abs/10.1080/07474938.2017.1348683).
 
-* Optimal Unemployment Insurance: Consumption versus Expenditure (with Rolf Campos)  Labour Economics, Volume 38, January 2016, Pages 81–89. Journal version, WP version
+* Optimal Unemployment Insurance: Consumption versus Expenditure (with Rolf Campos)  Labour Economics, Volume 38, January 2016, Pages 81–89. [Journal version](http://dx.doi.org/10.1016/j.labeco.2015.11.004), WP version
 
-* didq: A Command for Treatment Effect Estimation under Alternative Assumptions (with Ricardo Mora),The Stata Journal, Volume 15 Number 3, November 2015,  796-808. Journal version, WP version (didq.ado available in Stata)
+* didq: A Command for Treatment Effect Estimation under Alternative Assumptions (with Ricardo Mora),The Stata Journal, Volume 15 Number 3, November 2015,  796-808. [Journal version](http://www.stata-journal.com/article.html?article=st0405), WP version (didq.ado available in Stata)
 
 * Consumption in the Shadow of Unemployment (with Rolf Campos),  European Economic Review, Volume 78, August 2015, 39–54. Journal version, WP version
 
