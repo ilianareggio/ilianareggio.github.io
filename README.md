@@ -1,6 +1,11 @@
+<!---
+My research interests are 
+-->
+
+
 ![](iliana_pic.jpg){:height="200px" width="200px"}
 
-I am visiting [Goethe University Frankfurt](http://www.uni-frankfurt.de) this year
+I am visiting [Goethe University Frankfurt](http://www.uni-frankfurt.de) this year.
 
 ### **_Contact Information_**
 email: ireggio@gmail.com
