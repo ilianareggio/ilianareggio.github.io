@@ -4,11 +4,11 @@
 
 * Alternative Diff-in-Diffs Estimators with Several Pretreatment Periods (with Ricardo Mora), Econometric Reviews, [forthcoming](http://www.tandfonline.com/doi/abs/10.1080/07474938.2017.1348683).
 
-* Optimal Unemployment Insurance: Consumption versus Expenditure (with Rolf Campos)  Labour Economics, Volume 38, January 2016, Pages 81–89. [Journal version](http://dx.doi.org/10.1016/j.labeco.2015.11.004), WP version
+* Optimal Unemployment Insurance: Consumption versus Expenditure (with Rolf Campos)  Labour Economics, Volume 38, January 2016, Pages 81–89. [Journal version](http://dx.doi.org/10.1016/j.labeco.2015.11.004)
 
-* didq: A Command for Treatment Effect Estimation under Alternative Assumptions (with Ricardo Mora),The Stata Journal, Volume 15 Number 3, November 2015,  796-808. [Journal version](http://www.stata-journal.com/article.html?article=st0405), WP version (didq.ado available in Stata)
+* didq: A Command for Treatment Effect Estimation under Alternative Assumptions (with Ricardo Mora),The Stata Journal, Volume 15 Number 3, November 2015,  796-808. [Journal version](http://www.stata-journal.com/article.html?article=st0405) (didq.ado available in Stata)
 
-* Consumption in the Shadow of Unemployment (with Rolf Campos),  European Economic Review, Volume 78, August 2015, 39–54. [Journal version](http://www.sciencedirect.com/science/article/pii/S0014292115000628), WP version
+* Consumption in the Shadow of Unemployment (with Rolf Campos),  European Economic Review, Volume 78, August 2015, 39–54. [Journal version](http://www.sciencedirect.com/science/article/pii/S0014292115000628), [WP version](myLib/CamposReggio_bde_dt1411e.pdf)
 
 * Measurement Error in Imputation Procedures, with Rolf Campos, Economics Letters, Volume 122, Issue 2, 2014, 197-202. [Journal version](http://ideas.repec.org/a/eee/ecolet/v122y2014i2p197-202.html), WP version
 
