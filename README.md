@@ -12,7 +12,7 @@ email: ireggio@gmail.com
 
 Address:  
 [Goethe University Frankfurt](http://www.uni-frankfurt.de)  
-House of Finance
+House of Finance  
 Theodor-W.-Adorno-Platz 3  
 60629, Frankfurt am Main (Germany)
 
