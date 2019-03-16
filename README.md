@@ -17,12 +17,4 @@ Tel.: 06979833851
 ### **_[Research](research.md)_**
 My [CV](IlianaReggio_CV_Feb2019.pdf)
 
-### **_Teaching_**
-#### Current courses at GU  
-Mathematical Methods in Economics  
-Social Insurance  
-
-#### Past courses at UC3M  
-Macroeconomics  
-Applied Economics  
-Quantitative Microeconomics
+### **_[Teaching](teaching.md)_**
