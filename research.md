@@ -22,8 +22,6 @@
 
 **Work in Progress**
 
-* Do the Unemployed Pay Lower Prices? A Reassessment of the Value of Unemployment Insurance (with Rolf Campos), Revise and Resubmit
-
 * Graduating into a recession (with Alfonso Alba)
 
 * Moral Hazard versus Liquidity and the Optimal Timing of Unemployment Benefits (with Rolf Campos and Ignacio García-Pérez)
