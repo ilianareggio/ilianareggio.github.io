@@ -22,7 +22,7 @@ Tel.: 06979833851
 
 ### **_[Teaching](teaching.md)_**
 
-More information in my [CV](myLib/IlianaReggio_CV_March2019.pdf)
+More information in my [CV](myLib/IlianaReggio_CV_April2019.pdf)
 
 <!---
 your comment goes here
