@@ -10,13 +10,6 @@ Welcome to my personal webpage.
 ### **_Contact Information_**
 email: ireggio@gmail.com
 
-Address:  
-[Goethe University Frankfurt](http://www.uni-frankfurt.de)  
-Theodor-W.-Adorno-Platz 3 (House of Finance)  
-60629, Frankfurt am Main (Germany)
-
-Tel.: 06979833851
-
 
 ### **_[Research](research.md)_**
 
