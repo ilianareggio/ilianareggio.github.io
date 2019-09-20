@@ -1,5 +1,5 @@
 ### Teaching
-#### Current courses at GU  
+#### Past courses at GU  
 Mathematical Methods in Economics  
 Social Insurance  
 
