@@ -4,7 +4,7 @@
 
 * Do the Unemployed Pay Lower Prices? A Reassessment of the Value of Unemployment Insurance (with Rolf Campos), Journal of the European Economic Association, forthcoming. 
 
-* Alternative Diff-in-Diffs Estimators with Several Pretreatment Periods (with Ricardo Mora), Econometric Reviews, [forthcoming](http://www.tandfonline.com/doi/abs/10.1080/07474938.2017.1348683) [WP version](https://ideas.repec.org/p/cte/werepe/we1233.html)
+* Alternative Diff-in-Diffs Estimators with Several Pretreatment Periods (with Ricardo Mora), Econometric Reviews, Vol 38:5, 465-486, 2019 [Journal version](http://www.tandfonline.com/doi/abs/10.1080/07474938.2017.1348683) [WP version](https://ideas.repec.org/p/cte/werepe/we1233.html)
 
 * Optimal Unemployment Insurance: Consumption versus Expenditure (with Rolf Campos)  Labour Economics, Volume 38, January 2016, Pages 81–89. [Journal version](http://dx.doi.org/10.1016/j.labeco.2015.11.004) [WP version](https://ideas.repec.org/p/cte/werepe/we1502.html)
 
