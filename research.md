@@ -2,7 +2,7 @@
 
 **Publications**
 
-* Do the Unemployed Pay Lower Prices? A Reassessment of the Value of Unemployment Insurance (with Rolf Campos), Journal of the European Economic Association, forthcoming. 
+* Do the Unemployed Pay Lower Prices? A Reassessment of the Value of Unemployment Insurance (with Rolf Campos), Journal of the European Economic Association, forthcoming. [Journal version] (https://academic.oup.com/jeea/advance-article/doi/10.1093/jeea/jvz043/5607409?guestAccessKey=14e0bd06-6410-43f0-aa64-677e87dfef66). 
 
 * Alternative Diff-in-Diffs Estimators with Several Pretreatment Periods (with Ricardo Mora), Econometric Reviews, Vol 38:5, 2019, 465-486 [Journal version](http://www.tandfonline.com/doi/abs/10.1080/07474938.2017.1348683) [WP version](https://ideas.repec.org/p/cte/werepe/we1233.html)
 
@@ -26,4 +26,5 @@
 
 * Moral Hazard versus Liquidity and the Optimal Timing of Unemployment Benefits (with Rolf Campos and Ignacio García-Pérez)
 
-* The evolution of self-reported health (with Moshe Buchinsky and Nicole Maestas)**
+* The evolution of self-reported health (with Moshe Buchinsky and Nicole Maestas)
+
