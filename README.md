@@ -5,8 +5,6 @@ My research interests are
 
 ![](myLib/iliana_pic.jpg){:height="200px" width="200px"}
 
-![](myLib/github_Iliana.png){:height="200px" width="200px"}
-
 Welcome to my personal webpage. 
 
 ### **_Contact Information_**
