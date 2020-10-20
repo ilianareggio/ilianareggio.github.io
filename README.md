@@ -23,7 +23,7 @@ email: iliana.reggio@uam.es
 
 ### **_[Teaching](teaching.md)_**
 
-More information in my [CV](myLib/IlianaReggio_CV_Sept2019.pdf)
+More information in my [CV](myLib/IlianaReggio_CV_updated.pdf)
 
 <!---
 your comment goes here
