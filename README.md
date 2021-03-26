@@ -3,7 +3,7 @@ My research interests are
 -->
 
 
-![](myLib/iliana_pic2.jpg){:height="200px" width="200px"}
+![](myLib/Iliana_pic2.jpg){:height="200px" width="200px"}
 
 Welcome to my personal webpage. 
 
