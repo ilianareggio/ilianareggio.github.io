@@ -1,0 +1,436 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% LaTeX Template: Curriculum Vitae
+%
+% Source: http://www.howtotex.com/
+% Feel free to distribute this template, but please keep the
+% referal to HowToTeX.com.
+% Date: July 2011
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% How to use writeLaTeX: 
+%
+% You edit the source code here on the left, and the preview on the
+% right shows you the result within a few seconds.
+%
+% Bookmark this page and share the URL with your co-authors. They can
+% edit at the same time!
+%
+% You can upload figures, bibliographies, custom classes and
+% styles using the files menu.
+%
+% If you're new to LaTeX, the wikibook is a great place to start:
+% http://en.wikibooks.org/wiki/LaTeX
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\documentclass[fontsize=11pt]{scrartcl} % KOMA-article class
+\documentclass[12pt]{article}	
+
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[protrusion=true,expansion=true]{microtype}
+\usepackage{amsmath,amsfonts,amsthm}     % Math packages
+\usepackage{graphicx}                    % Enable pdflatex
+\usepackage[svgnames]{xcolor}            % Colors by their 'svgnames'
+\usepackage{geometry}
+%	\textheight=700px                    % Saving trees ;-)
+\usepackage{url}
+%\usepackage{hyperref}
+\usepackage[colorlinks=True]{hyperref}
+
+\frenchspacing              % Better looking spacings after periods
+\pagestyle{empty}           % No pagenumbers/headers/footers
+
+%%% Custom sectioning (sectsty package)
+%%% ------------------------------------------------------------
+\usepackage{sectsty}
+
+\sectionfont{%			            % Change font of \section command
+	\usefont{OT1}{phv}{b}{n}%		% bch-b-n: CharterBT-Bold font
+	\sectionrule{0pt}{0pt}{-5pt}{3pt}}
+
+%%% Macros
+%%% ------------------------------------------------------------
+\newlength{\spacebox}
+\settowidth{\spacebox}{8888888888}			% Box to align text
+\newcommand{\sepspace}{\vspace*{1em}}		% Vertical space macro
+
+\newcommand{\MyName}[1]{ % Name
+		\Large
+		%\usefont{OT1}{phv}{b}{n} 
+		\hfill \begin{center}
+		\textbf{#1}
+		\end{center}
+		\par \normalsize \normalfont}
+		
+\newcommand{\MySlogan}[1]{ % Slogan (optional)
+		\large 
+		%\usefont{OT1}{phv}{m}{n}
+		\hfill 
+		\begin{center}
+		\textit{#1}
+		\end{center}
+		\par \normalsize \normalfont}
+		
+\newcommand{\MyDate}[1]{ % Slogan (optional)
+		%\usefont{OT1}{phv}{m}{n}
+		\small
+		\hfill 
+		\begin{center}
+		#1
+		\end{center}
+		\par \normalsize \normalfont}
+		
+%\newcommand{\NewPart}[1]{\section*{\uppercase{#1}}}
+\newcommand{\NewPart}[1]{ \vspace*{0.4cm} \noindent \large \textbf{#1}
+\par \normalsize \normalfont \vspace*{-0.5cm} \noindent\rule{\textwidth}{1.8pt} \vspace*{-0.75cm} }
+
+\newcommand{\PersonalEntry}[2]{
+		\noindent\hangindent=0em\hangafter=0 % Indentation
+		\parbox{\spacebox}{        % Box to align text
+		\textit{#1}}		       % Entry name (birth, address, etc.)
+		\hspace{1.5em} #2 \par}    % Entry value
+
+\newcommand{\SkillsEntry}[2]{      % Same as \PersonalEntry
+		\noindent\hangindent=2em\hangafter=0 % Indentation
+		\parbox{\spacebox}{        % Box to align text
+		\textit{#1}}			   % Entry name (birth, address, etc.)
+		\hspace{1.5em} #2 \par}    % Entry value	
+
+\newcommand{\ConferenceEntry}[2]{
+		\noindent
+		#1		   % Entry year
+		\hspace{0em} #2 \par}     % Entry value
+%\newcommand{\ConferenceEntry}[2]{
+%		\noindent
+%		\parbox{\spacebox}{        % Box to align text
+%		\noindent #1}			   % Entry year
+%		\hspace{0em} #2 \par}      % Entry value
+		
+\newcommand{\EducationEntry}[4]{
+		\noindent #1 \hfill      % Study
+		\noindent #2 %\hfill  % Duration
+%		\colorbox{Black}{%
+%			\parbox{6em}{%
+%			\hfill\color{White}#2}} \par  % Duration
+		\noindent \textit{#3} \par        % School
+		\noindent\hangindent=2em\hangafter=0  #4 % Description
+		\normalsize \par}
+		
+\newcommand{\WorkEntry}[4]{				  % Same as \EducationEntry
+		\noindent #1 \hfill  % Work
+		\noindent #2  % Duration
+		\noindent \textit{#3} \par        % Place
+		\noindent\hangindent=2em\hangafter=0 \small #4 % Description
+		\normalsize \par}
+%\newcommand{\WorkEntry}[4]{				  % Same as \EducationEntry
+%		\noindent \textbf{#1} \hfill      % Jobname
+%		\colorbox{Black}{\color{White}#2} \par  % Duration
+%		\noindent \textit{#3} \par              % Company
+%		\noindent\hangindent=2em\hangafter=0 \small #4 % Description
+%		\normalsize \par}
+
+
+% ---- Deal with page dimensions ----
+\special{papersize=8.5in,11in}
+\setlength{\parindent}{0em} \setlength{\parskip}{1.5ex plus0.5ex minus0.5ex} 
+\textwidth 15.75cm \evensidemargin3mm \oddsidemargin3mm \topmargin-8mm \textheight 21cm
+
+
+%%% Begin Document
+%%% ------------------------------------------------------------
+\begin{document}
+% you can upload a photo and include it here...
+%\begin{wrapfigure}{l}{0.5\textwidth}
+%	\vspace*{-2em}
+%		\includegraphics[width=0.15\textwidth]{photo}
+%\end{wrapfigure}
+\vspace*{-1.4cm}
+\MyName{Iliana Reggio}
+\vspace*{-1.6cm}
+\MySlogan{Curriculum Vitae}
+\vspace*{-1.5cm}
+ \MyDate{Updated May 2021}
+%\sepspace
+
+%%% Personal details
+%%% ------------------------------------------------------------
+\vspace*{-0.25cm}
+\NewPart{Contact}{}
+%\noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
+
+%\PersonalEntry{Birth}{January 1, 1980}
+
+
+\PersonalEntry{Mail}{\url{iliana.reggio@uam.es}}
+\vspace*{0.3cm}
+
+\PersonalEntry{Web Page}{\href{https://ilianareggio.github.io/}{https://ilianareggio.github.io/}}
+
+%\vspace*{0.3cm}
+%\PersonalEntry{Address} {Goethe University Frankfurt}
+%\PersonalEntry{}{House of Finance}
+%\PersonalEntry{}{Theodor-W.-Adorno-Platz 3}
+%\PersonalEntry{}{60629 Frankfurt am Main (Germany)}
+%\vspace*{0.3cm}
+%
+%\vspace*{0.3cm}
+%\PersonalEntry{Phone}{(49) 692 6943180}
+%\vspace*{0.3cm}
+
+%%% ------------------------------------------------------------
+\vspace*{-0.1cm}
+\NewPart{Academic Employment}{}
+
+
+\WorkEntry{Assistant Professor - Universidad Autonoma de Madrid}{Sept. 2019 -}{}{}
+\sepspace
+
+\WorkEntry{Substitute Professor: Chair of Public Finance and Debt Management }{2018}{}{}
+\vspace*{-1cm}
+\WorkEntry{House of  Finance, Goethe University Frankfurt}{}{}{}
+
+\WorkEntry{Assistant Professor - Universidad Carlos III de Madrid}{2008 -2018}{}{}
+\sepspace
+
+\WorkEntry{Research Fellow - Bank of Spain}{Sept. 2013 - March 2014}{}{}
+
+%%% Work experience
+%%% ------------------------------------------------------------
+\vspace*{-0.1cm}
+\NewPart{Education}{}
+
+\EducationEntry{Ph.D. Economics, University of California Los Angeles (UCLA)}{2008}{}{}
+%\sepspace
+
+\EducationEntry{M.A. Economics, University of California Los Angeles (UCLA)}{2004}{}{}
+
+\EducationEntry{Posgrado en Econom\'ia, Universidad Torcuato di Tella, Buenos Aires, Argentina}{2001}{}{}
+
+\EducationEntry{B.A. Economics, Universidad de la República, Montevideo, Uruguay}{1999}{}{}
+
+%%% ------------------------------------------------------------
+\vspace*{-0.25cm}
+\NewPart{Publications}{}
+
+\vspace*{0.25cm}
+
+\EducationEntry{Do the Unemployed Pay Lower Prices? A Reassessment of the Value of Unemployment Insurance (with Rodolfo Campos), \textit{Journal of the European Economic Association}, (2020) Volume 18:5, Pages 2135–2181}{}{}{}
+
+\vspace*{-0.5cm}
+
+
+\EducationEntry{Alternative Diff-in-diffs Estimators with Several Pre-treatment Periods (with Ricardo Mora), \textit{Econometric Reviews} (2019) 38:5, Pages 465-486}{}{}{}
+
+\vspace*{-0.5cm}
+
+\EducationEntry{Optimal Unemployment Insurance: Consumption versus Expenditure (with Rodolfo Campos), \textit{Labour Economics} (2016) Vol. 38, Pages 81–89}{}{}{}
+
+\vspace*{-0.5cm}
+
+\EducationEntry{didq: A Command for Treatment Effect Estimation under Alternative Assumptions (with Ricardo Mora), \textit{The Stata Journal} (2015) Vol. 15, Number 3, Pages 796-808}{}{}{}
+
+%\sepspace
+
+\vspace*{-0.5cm}
+
+\EducationEntry{Consumption in the Shadow of Unemployment (with Rodolfo Campos),  \textit{European Economic Review} (2015), Vol. 78, Pages 39-54.}{}{}{}
+
+\vspace*{-0.5cm}
+
+\EducationEntry{Measurement Error in Imputation Procedures (with Rodolfo Campos), \textit{Economics Letters} (2014), Vol. 122, No. 2, Pages 197 - 202.}{}{}{}
+
+\vspace*{-0.5cm}
+
+\EducationEntry{Micro vs. Macro Consumption Data: The Cyclical Properties of the Consumer Expenditure Survey (with Rodolfo Campos and Dionisio García-Píriz), \textit{Applied Economics} (2013), 45(26), Pages 3778-3785.}{}{}{}
+%\sepspace
+
+\vspace*{-0.5cm}
+
+\EducationEntry{The Influence of the Mother's Power on her Child's Labor in Mexico, \textit{Journal of Development Economics} (2011), Volume 96 (1), Pages 95-105.}{}{}{}
+
+\vspace*{-0.5cm}
+
+\EducationEntry{On the Endogeneity of Exchange Rate Regimes (with Eduardo Levy Yeyati and Federico Sturzenegger), \textit{European Economic Review} (2010), Volume 54 (5), Pages 659-677.}{}{}{}
+
+%%% ------------------------------------------------------------
+\vspace*{-0.5cm}
+\NewPart{Working Papers}{}
+\vspace*{0.25cm}
+
+
+\EducationEntry{Moral Hazard versus Liquidity and the Optimal Timing of Unemployment Benefits (with Rodolfo Campos and Ignacio García-Pérez), R\&R}{}{}{}
+%%% ------------------------------------------------------------
+\vspace*{-0.5cm}
+%\NewPart{Work in Progress}{}
+%%\vspace*{0.5cm}
+
+\EducationEntry{Graduating into a Recession (with Alfonso Alba)}{}{}{}
+
+\vspace*{-0.5cm}
+
+\EducationEntry{The Evolution of Self-reported Health (with Moshe Buchinsky and Nicole Maestas)}{}{}{}
+
+
+
+
+%%% ------------------------------------------------------------
+\vspace*{-0.25cm}
+\NewPart{Working Papers in Spanish}{}
+
+\EducationEntry{The effect of liquidity restrictions on household consumption: the case of Uruguay (with Rodrigo Arim), 2006, Instituto de Economía, Universidad de la República, Working Paper 08/06.}{}{}{}
+%\sepspace
+\vspace*{-0.5cm}
+\EducationEntry{Unemployment in Uruguay: 1995-1997 (with Verónica Amarante), 2000, Instituto de Economía, Universidad de la República, Working Paper 01/00.}{}{}{}
+
+%%% ------------------------------------------------------------
+\vspace*{-0.2cm}
+\NewPart{Teaching Experience}{}
+
+%\textbf{As instructor}
+\EducationEntry{Macroeconomics: UAM}{2020-}{}{}
+\vspace*{-0.5cm}
+
+\EducationEntry{Microeconomics: UAM}{2019-2020}{}{}
+\vspace*{-0.5cm}
+
+\EducationEntry{Social Insurance: Goethe University Frankfurt}{2018-2019}{}{}
+\vspace*{-0.5cm}
+
+\EducationEntry{Mathematical Methods - PhD course: Goethe University Frankfurt}{2018-2019}{}{}
+\vspace*{-0.5cm}
+
+\EducationEntry{Quantitative Microeconomics: Universidad Carlos III de Madrid }{2017-2018}{}{}
+\vspace*{-0.5cm}
+
+\EducationEntry{Macroeconomics: Universidad Carlos III de Madrid }{2017-2018}{}{}
+\vspace*{-0.5cm}
+
+\EducationEntry{Applied Economics: Universidad Carlos III de Madrid }{2011 - 2018}{}{}
+%\sepspace
+%\vspace*{0.5cm}
+\vspace*{-0.5cm}
+
+\EducationEntry{Econometrics: Universidad Carlos III de Madrid}{2008 - 2010}{}{}
+\vspace*{-0.5cm}
+%\textbf{As teaching assistant}
+%
+%\EducationEntry{Statistics for Economists: UCLA}{2007}{}{}
+%\vspace*{-0.5cm}
+%
+%\EducationEntry{Introductory Microeconomics: UCLA}{2005}{}{}
+%\vspace*{-0.5cm}
+%
+%\EducationEntry{Introductory Econometrics: UCLA}{2003 - 2006}{}{}
+
+
+%%% ------------------------------------------------------------
+\vspace*{-0.25cm}
+\NewPart{Refereeing}{}
+
+\ConferenceEntry{European Economic Review, Journal of Development Economics, Journal of International Economics, Journal of Labor Economics, Journal of Population Economics, Labour Economics, Review of Economics of the Household, Review of Income and Wealth.}{}
+
+%%% ------------------------------------------------------------
+%\vspace*{-0.25cm}
+\NewPart{Conference and Seminar Presentations}{}
+
+\ConferenceEntry{Maynooth University, October 2017}
+
+\ConferenceEntry{Universidad Autonoma de Barcelona, October 2017}
+
+\ConferenceEntry{ESPE (Glasgow), July 2017}
+
+\ConferenceEntry{Universidad Autonoma de Madrid, December 2016}
+
+\ConferenceEntry{Simposio AEE (Girona), December 2015}
+
+\ConferenceEntry{EEA-ESEM (Toulouse), August 2014}
+
+\ConferenceEntry{AFSE (Aix-en-Provence), June 2013}
+
+\ConferenceEntry{EALE (Turin), September 2013}
+
+\ConferenceEntry{Universidad de Vigo, May 2011}
+
+\ConferenceEntry{LACEA-LAMES (Buenos Aires), October 2009}
+
+\ConferenceEntry{EEA-ESEM (Milan), September 2008}
+
+\ConferenceEntry{Universitat Autonoma de Barcelona, February 2008}
+
+\ConferenceEntry{Einaudi Institute of Economics and Finance, February 2008} 
+
+\ConferenceEntry{Universidad Carlos III de Madrid, February 2008} 
+
+\ConferenceEntry{PAA (New York), March 2007}
+
+\ConferenceEntry{LACEA-LAMES (Paris), October 2005}
+
+
+%%%% ------------------------------------------------------------
+%\NewPart{Conference and Seminar Presentations}{}
+%
+%\ConferenceEntry{2014}{EEA-ESEM (Toulouse)}
+%\vspace*{0.3cm}
+%
+%\ConferenceEntry{2013}{AFSE (Aix-en-Provence), EALE (Turin), Bank of Spain}
+%\vspace*{0.3cm}
+%
+%\ConferenceEntry{2011}{Universidad de Vigo }
+%\vspace*{0.3cm}
+%
+%\ConferenceEntry{2009}{LACEA-LAMES (Buenos Aires)}
+%\vspace*{0.3cm}
+%
+%\ConferenceEntry{2008}{EEA-ESEM (Milan), Universidad Carlos III de Madrid, Universitat Autonoma de Barcelona, Einaudi Institute of Economics and Finance, LACEA-LAMES (Paris), PAA (New York)}
+%\vspace*{0.3cm}
+
+%%% ------------------------------------------------------------
+%\vspace*{-0.25cm}
+\NewPart{Awards and Fellowships}{}
+
+\ConferenceEntry{VII Lluís Fina Prize, Asociación Española de Economía del Trabajo (AEET), 2017}
+
+\ConferenceEntry{Juan de la Cierva Fellowship, Spanish Ministry for Science and Innovation, 2012-2013}
+%\sepspace
+
+\ConferenceEntry{UCLA Dissertation Year Fellowship, 2007-2008}{}{}
+%\sepspace
+
+\ConferenceEntry{William and Flora Hewlett Foundation fellowship, Program for Training in International Population Studies, CCPR, UCLA, 2005}{}{}
+
+\ConferenceEntry{Tinker Foundation Scholarship, LACEA, 2005}{}{}
+
+\ConferenceEntry{Fellowship, Department of Economics, UCLA, 2003 - 2005}{}{}
+
+\ConferenceEntry{Special Mention, National Prize in Economics, Universidad de la República, Uruguay, 2002}{}{}
+
+\ConferenceEntry{Fellowship Centro de Investigación en Finanzas, Universidad Torcuato di Tella, Buenos Aires, Argentina, 2000 - 2002}{}{}
+
+
+%%%% Skills
+%%%% ------------------------------------------------------------
+%\NewPart{Skills}{}
+%
+%\SkillsEntry{Languages}{Dutch (mother tongue)}
+%\SkillsEntry{}{English (fluent)}
+%\SkillsEntry{}{German (fluent)}
+%
+%\SkillsEntry{Software}{\textsc{Matlab}, \LaTeX, \textsc{Ansys}, \textsc{Comsol}}
+%
+%
+%%%% References
+%%%% ------------------------------------------------------------
+%\NewPart{References}{}
+%
+%\ConferenceEntry{Moshe Buchinsky \\ University of California at Los Angeles \\ 8283 Bunche Hall, Mail Stop: 147703 \\ Los Angeles, CA 90095 \\ Tel: (310) 206-9665 \\ \url{buchinsky@econ.ucla.edu}}
+%
+%
+%
+%\ConferenceEntry{Raquel Carrasco \\ Universidad Carlos III de Madrid \\ Calle Madrid 126, Getafe, 28903 – Spain \\ Tel: +34 916249583 \\ \url{rcarras@eco.uc3m.es}}
+%
+%\ConferenceEntry{Ricardo Mora \\ Universidad Carlos III de Madrid \\ Calle Madrid 126, Getafe, 28903 – Spain \\ Tel: +34 91 6249576 \\ \url{ricmora@eco.uc3m.es}}
+
+
+
+%Available upon request
+\end{document}
