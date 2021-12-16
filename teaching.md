@@ -2,8 +2,8 @@
 #### UAM
 
 #### This semester: 
-Macroeconomía: Economía Cerrada
-Macroeconomía Dinámica
+Macroeconomía: Economía Cerrada  
+Macroeconomía Dinámica  
 
 #### Past semesters:
 Microeconomía  
