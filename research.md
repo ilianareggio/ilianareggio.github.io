@@ -29,9 +29,9 @@
 
 * Thick borders in Franco's Spain: the costs of a closed economy (with Rolf Campos and Jacopo Timini)
 
-* Graduating into a recession (with Alfonso Alba)
-
 * Moral Hazard versus Liquidity and the Optimal Timing of Unemployment Benefits (with Rolf Campos and Ignacio García-Pérez)
+
+* Graduating into a recession (with Alfonso Alba)
 
 * The evolution of self-reported health (with Moshe Buchinsky and Nicole Maestas)
 
