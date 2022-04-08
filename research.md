@@ -27,9 +27,9 @@
 
 **Work in Progress**
 
-* Thick borders in Franco's Spain: the costs of a closed economy (with Rolf Campos and Jacopo Timini) [WP version](https://ilianareggio.github.io/myLib/wp-franco-borders/)
+* Thick borders in Franco's Spain: the costs of a closed economy (with Rolf Campos and Jacopo Timini) [WP version](https://ilianareggio.github.io/myLib/wp-franco-borders.pdf)
 
-* Moral Hazard versus Liquidity and the Optimal Timing of Unemployment Benefits (with Rolf Campos and Ignacio García-Pérez)
+* Moral Hazard versus Liquidity and the Optimal Timing of Unemployment Benefits (with Rolf Campos and Ignacio García-Pérez) [WP version](https://ilianareggio.github.io/myLib/wp-ui-kink.pdf)
 
 * Graduating into a recession (with Alfonso Alba)
 
