@@ -6,7 +6,7 @@
 
 **Publications**
 
-* **Moral Hazard versus Liquidity and the Optimal Timing of Unemployment Benefits** (with [Rolf Campos](https://rolf-campos.github.io/) and [J. Ignacio García-Pérez](https://sites.google.com/view/jigarper/home)), accepted at the *Economic Journal*. [WP version](https://ilianareggio.github.io/myLib/wp-ui-kink.pdf)
+* **Moral Hazard versus Liquidity and the Optimal Timing of Unemployment Benefits** (with [Rolf Campos](https://rolf-campos.github.io/) and [J. Ignacio García-Pérez](https://sites.google.com/view/jigarper/home)), accepted at *The Economic Journal*. [WP version](https://ilianareggio.github.io/myLib/wp-ui-kink.pdf)
 
 * **Do the Unemployed Pay Lower Prices? A Reassessment of the Value of Unemployment Insurance** (with [Rolf Campos](https://rolf-campos.github.io/)), *Journal of the European Economic Association* (2020), Vol 18, Issue 5. [Journal version](https://academic.oup.com/jeea/advance-article/doi/10.1093/jeea/jvz043/5607409?guestAccessKey=14e0bd06-6410-43f0-aa64-677e87dfef66)
 
