@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.8.9)  31 MAY 2022 13:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.8.9)  31 MAY 2022 16:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -450,18 +450,18 @@ Package rerunfilecheck Info: File `IlianaReggio_CV_updated.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 13355 strings out of 478542
- 202817 string characters out of 5854403
+ 13351 strings out of 478542
+ 202783 string characters out of 5854403
  580801 words of memory out of 5000000
  31017 multiletter control sequences out of 15000+600000
- 412776 words of font info for 92 fonts, out of 8000000 for 9000
+ 412618 words of font info for 90 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,6n,66p,874b,489s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,6n,66p,862b,489s stack positions out of 5000i,500n,10000p,200000b,80000s
 <d:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><d:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on IlianaReggio_CV_updated.pdf (5 pages, 79175 bytes).
+Output written on IlianaReggio_CV_updated.pdf (5 pages, 79792 bytes).
 PDF statistics:
- 58 PDF objects out of 1000 (max. 8388607)
- 40 compressed objects within 1 object stream
+ 69 PDF objects out of 1000 (max. 8388607)
+ 51 compressed objects within 1 object stream
  6 named destinations out of 1000 (max. 500000)
  20993 words of extra memory for PDF output out of 24883 (max. 10000000)
 
