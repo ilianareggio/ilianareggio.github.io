@@ -52,7 +52,7 @@
 %%% ------------------------------------------------------------
 \newlength{\spacebox}
 \settowidth{\spacebox}{8888888888}			% Box to align text
-\newcommand{\sepspace}{\vspace*{1em}}		% Vertical space macro
+\newcommand{\sepspace}{\vspace*{0.5em}}		% Vertical space era 1
 
 \newcommand{\MyName}[1]{ % Name
 		\Large
@@ -88,7 +88,7 @@
 		\noindent\hangindent=0em\hangafter=0 % Indentation
 		\parbox{\spacebox}{        % Box to align text
 		\textit{#1}}		       % Entry name (birth, address, etc.)
-		\hspace{1.5em} #2 \par}    % Entry value
+		\hspace{0.5em} #2}    % Entry value
 
 \newcommand{\SkillsEntry}[2]{      % Same as \PersonalEntry
 		\noindent\hangindent=2em\hangafter=0 % Indentation
@@ -111,7 +111,8 @@
 		\noindent #2 %\hfill  % Duration
 %		\colorbox{Black}{%
 %			\parbox{6em}{%
-%			\hfill\color{White}#2}} \par  % Duration
+%			\hfill\color{White}#2}} 
+		\par  % Duration
 		\noindent \textit{#3} \par        % School
 		\noindent\hangindent=2em\hangafter=0  #4 % Description
 		\normalsize \par}
@@ -161,14 +162,14 @@
 %\PersonalEntry{Birth}{January 1, 1980}
 
 
-\PersonalEntry{Mail}{\url{ireggio@gmail.com}}
+\PersonalEntry{Mail}{\url{iliana.reggio@uam.es}}{ or \url{ireggio@gmail.com}}
 \vspace*{0.3cm}
 
 \PersonalEntry{Web Page}{\href{https://ilianareggio.github.io/}{https://ilianareggio.github.io/}}
 
 %\vspace*{0.3cm}
-%\PersonalEntry{Address} {Goethe University Frankfurt}
-%\PersonalEntry{}{House of Finance}
+%\PersonalEntry{Address} {UAM}
+%\PersonalEntry{}{Economic Theory and History}
 %\PersonalEntry{}{Theodor-W.-Adorno-Platz 3}
 %\PersonalEntry{}{60629 Frankfurt am Main (Germany)}
 %\vspace*{0.3cm}
@@ -185,9 +186,10 @@
 \WorkEntry{Assistant Professor - Universidad Autonoma de Madrid}{Sept. 2019 -}{}{}
 \sepspace
 
-\WorkEntry{Substitute Professor: Chair of Public Finance and Debt Management }{2018}{}{}
+\WorkEntry{Substitute Professor: Chair of Public Finance and Debt Management }{2018-2019}{}{}
 \vspace*{-0.5cm}
 \WorkEntry{House of  Finance, Goethe University Frankfurt}{}{}{}
+
 
 \WorkEntry{Assistant Professor - Universidad Carlos III de Madrid}{2008 -2018}{}{}
 \sepspace
@@ -209,13 +211,12 @@
 \EducationEntry{B.A. Economics, Universidad de la República, Montevideo, Uruguay}{1999}{}{}
 
 %%% ------------------------------------------------------------
-\vspace*{-0.25cm}
+\vspace*{-0.5cm}
 \NewPart{Publications}{}
 
 \vspace*{0.25cm}
 
-\EducationEntry{Moral Hazard versus Liquidity and the Optimal Timing of Unemployment Benefits (with Rodolfo Campos and J. Ignacio García-Pérez), accepted for publication at \textit{The Economic Journal }}{}{}
-
+\EducationEntry{Moral Hazard versus Liquidity and the Optimal Timing of Unemployment Benefits (with Rodolfo Campos and J. Ignacio García-Pérez), accepted for publication at \textit{The Economic Journal}.}{}{}
 
 \vspace*{0.25cm}
 
@@ -224,21 +225,19 @@
 \vspace*{-0.25cm}
 
 
-\EducationEntry{Alternative Diff-in-diffs Estimators with Several Pre-treatment Periods (with Ricardo Mora), \textit{Econometric Reviews} (2019) 38:5, Pages 465-486}{\href{http://www.tandfonline.com/doi/abs/10.1080/07474938.2017.1348683}{Journal version}}{}{}
+\EducationEntry{Alternative Diff-in-diffs Estimators with Several Pre-treatment Periods (with Ricardo Mora), \textit{Econometric Reviews} (2019) 38:5, Pages 465-486.}{\href{http://www.tandfonline.com/doi/abs/10.1080/07474938.2017.1348683}{Journal version}}{}{}
 
 \vspace*{-0.25cm}
 
-\EducationEntry{Optimal Unemployment Insurance: Consumption versus Expenditure (with Rodolfo Campos), \textit{Labour Economics} (2016) Vol. 38, Pages 81–89}{\href{https://www.sciencedirect.com/science/article/abs/pii/S0927537115001232}{Journal version}}{}{}
+\EducationEntry{Optimal Unemployment Insurance: Consumption versus Expenditure (with Rodolfo Campos), \textit{Labour Economics} (2016) Vol. 38, Pages 81–89.}{\href{https://www.sciencedirect.com/science/article/abs/pii/S0927537115001232}{Journal version}}{}{}
 
 \vspace*{-0.25cm}
 
-\EducationEntry{didq: A Command for Treatment Effect Estimation under Alternative Assumptions (with Ricardo Mora), \textit{The Stata Journal} (2015) Vol. 15, Number 3, Pages 796-808}{\href{https://www.stata-journal.com/article.html?article=st0405}{Journal version}}{}{}
-
-%\sepspace
+\EducationEntry{didq: A Command for Treatment Effect Estimation under Alternative Assumptions (with Ricardo Mora), \textit{The Stata Journal} (2015) Vol. 15, Number 3, Pages 796-808. \href{https://www.stata-journal.com/article.html?article=st0405}{Journal version}}{}{}{}
 
 \vspace*{-0.25cm}
 
-\EducationEntry{Consumption in the Shadow of Unemployment (with Rodolfo Campos), \textit{European Economic Review} (2015), Vol. 78, Pages 39-54.}{\href{https://www.sciencedirect.com/science/article/abs/pii/S0014292115000628}{Journal version}}{}{}
+\EducationEntry{Consumption in the Shadow of Unemployment (with Rodolfo Campos), \textit{European Economic Review} (2015), Vol. 78, Pages 39-54. \href{https://www.sciencedirect.com/science/article/abs/pii/S0014292115000628}{Journal version}}{}{}
 
 \vspace*{-0.25cm}
 
@@ -251,7 +250,7 @@
 
 \vspace*{-0.25cm}
 
-\EducationEntry{The Influence of the Mother's Power on her Child's Labor in Mexico, \textit{Journal of Development Economics} (2011), Volume 96 (1), Pages 95-105.}{\href{https://www.sciencedirect.com/science/article/abs/pii/S0304387810000738}{Journal version}}{}{}
+\EducationEntry{The Influence of the Mother's Power on her Child's Labor in Mexico, \textit{Journal of Development Economics} (2011), Volume 96 (1), Pages 95-105. \href{https://www.sciencedirect.com/science/article/abs/pii/S0304387810000738}{Journal version}}{}{}{}
 
 \vspace*{-0.25cm}
 
@@ -266,9 +265,7 @@
 %%% ------------------------------------------------------------
 \vspace*{-0.25cm}
 
-
 \EducationEntry{The Evolution of Self-reported Health (with Moshe Buchinsky and Nicole Maestas)}{}{}{}
-
 
 \vspace*{-0.25cm}
 
@@ -282,11 +279,11 @@
 
 \EducationEntry{The effect of liquidity restrictions on household consumption: the case of Uruguay (with Rodrigo Arim), 2006, Instituto de Economía, Universidad de la República, Working Paper 08/06.}{}{}{}
 %\sepspace
-\vspace*{-0.5cm}
+\vspace*{-0.25cm}
 \EducationEntry{Unemployment in Uruguay: 1995-1997 (with Verónica Amarante), 2000, Instituto de Economía, Universidad de la República, Working Paper 01/00.}{}{}{}
 
 %%% ------------------------------------------------------------
-\vspace*{-0.2cm}
+\vspace*{-0.25cm}
 \NewPart{Teaching Experience}{}
 
 \EducationEntry{Dynamic Macroeconomics: UAM}{2021-}{}{}
@@ -301,12 +298,11 @@
 
 \EducationEntry{Quantitative Microeconomics: Universidad Carlos III de Madrid }{2017-2018}{}{}
 
-\EducationEntry{Macroeconomics: Universidad Carlos III de Madrid/Université Paris Dauphine}{2017-2018}{}{}
+\EducationEntry{Macroeconomics: Universidad Carlos III/Université Paris Dauphine}{2017-2018}{}{}
 
-\EducationEntry{Applied Economics: Universidad Carlos III de Madrid }{2011 - 2018}{}{}
-%\sepspace
-\vspace*{0.5cm}
-\EducationEntry{Econometrics: Universidad Carlos III de Madrid}{2008 - 2010}{}{}
+\EducationEntry{Applied Economics: Universidad Carlos III}{2011 - 2018}{}{}
+
+\EducationEntry{Econometrics: Universidad Carlos III}{2008 - 2010}{}{}
 
 % \EducationEntry{Dynamic Macroeconomics: UAM}{2021-}{}{This is a third year Macro course. It covers topics like business cycle models, dynamic consumption-savings models, consumption-labor models, models with public sector (taxes and public debt).}
 
@@ -347,39 +343,39 @@
 
 %%% ------------------------------------------------------------
 %\vspace*{-0.25cm}
-\NewPart{Conference and Seminar Presentations}{}
+% \NewPart{Conference and Seminar Presentations}{}
 
-\ConferenceEntry{Maynooth University, October 2017}
+% \ConferenceEntry{Maynooth University, October 2017}
 
-\ConferenceEntry{Universidad Autonoma de Barcelona, October 2017}
+% \ConferenceEntry{Universidad Autonoma de Barcelona, October 2017}
 
-\ConferenceEntry{ESPE (Glasgow), July 2017}
+% \ConferenceEntry{ESPE (Glasgow), July 2017}
 
-\ConferenceEntry{Universidad Autonoma de Madrid, December 2016}
+% \ConferenceEntry{Universidad Autonoma de Madrid, December 2016}
 
-\ConferenceEntry{Simposio AEE (Girona), December 2015}
+% \ConferenceEntry{Simposio AEE (Girona), December 2015}
 
-\ConferenceEntry{EEA-ESEM (Toulouse), August 2014}
+% \ConferenceEntry{EEA-ESEM (Toulouse), August 2014}
 
-\ConferenceEntry{AFSE (Aix-en-Provence), June 2013}
+% \ConferenceEntry{AFSE (Aix-en-Provence), June 2013}
 
-\ConferenceEntry{EALE (Turin), September 2013}
+% \ConferenceEntry{EALE (Turin), September 2013}
 
-\ConferenceEntry{Universidad de Vigo, May 2011}
+% \ConferenceEntry{Universidad de Vigo, May 2011}
 
-\ConferenceEntry{LACEA-LAMES (Buenos Aires), October 2009}
+% \ConferenceEntry{LACEA-LAMES (Buenos Aires), October 2009}
 
-\ConferenceEntry{EEA-ESEM (Milan), September 2008}
+% \ConferenceEntry{EEA-ESEM (Milan), September 2008}
 
-\ConferenceEntry{Universitat Autonoma de Barcelona, February 2008}
+% \ConferenceEntry{Universitat Autonoma de Barcelona, February 2008}
 
-\ConferenceEntry{Einaudi Institute of Economics and Finance, February 2008} 
+% \ConferenceEntry{Einaudi Institute of Economics and Finance, February 2008} 
 
-\ConferenceEntry{Universidad Carlos III de Madrid, February 2008} 
+% \ConferenceEntry{Universidad Carlos III de Madrid, February 2008} 
 
-\ConferenceEntry{PAA (New York), March 2007}
+% \ConferenceEntry{PAA (New York), March 2007}
 
-\ConferenceEntry{LACEA-LAMES (Paris), October 2005}
+% \ConferenceEntry{LACEA-LAMES (Paris), October 2005}
 
 
 %%%% ------------------------------------------------------------
