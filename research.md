@@ -6,6 +6,8 @@
 
 **Publications**
 
+* **Autarky in Franco's Spain: the costs of a closed economy** (with [Rolf Campos](https://rolf-campos.github.io/) and Jacopo Timini), *Economic History Review* (forthcoming). [WP version](https://ilianareggio.github.io/myLib/wp-franco-borders.pdf)
+
 * **Moral Hazard versus Liquidity and the Optimal Timing of Unemployment Benefits** (with [Rolf Campos](https://rolf-campos.github.io/) and [J. Ignacio García-Pérez](https://sites.google.com/view/jigarper/home)), *The Economic Journal* (2022), Vol 132, Issue 648, 2674-2701. [Journal version](https://doi.org/10.1093/ej/ueac034) [WP version](https://ilianareggio.github.io/myLib/ej-2022-mh-liq.pdf)
 
 
@@ -27,12 +29,4 @@
 * **The influence of the mother’s power on her child’s labor in Mexico**, *Journal of Development Economics* (2011), 96(1), 95-105. [Journal version](https://www.sciencedirect.com/science/article/pii/S0304387810000738) [WP version](https://ideas.repec.org/p/cte/werepe/we101305.html)
 
 * **On the Endogeneity of Exchange Rate Regimes** (with Eduardo Levy Yeyati and Federico Sturzenegger). *European Economic Review* (2010), 54(5), 659-677. [Journal version](http://www.sciencedirect.com/science/article/pii/S0014292109001251) [WP version](https://ideas.repec.org/p/cte/werepe/we098374.html)
-
-**Work in Progress**
-
-* Thick borders in Franco's Spain: the costs of a closed economy (with Rolf Campos and Jacopo Timini) [WP version](https://ilianareggio.github.io/myLib/wp-franco-borders.pdf)
-
-* Graduating into a recession (with Alfonso Alba)
-
-* The evolution of self-reported health (with Moshe Buchinsky and Nicole Maestas)
 
