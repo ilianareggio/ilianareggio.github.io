@@ -7,10 +7,11 @@ My research interests are
 
 
 ### **_Contact Information_**
+<!---
 Dpto. de Análisis Económico: T. e H. Económica 
 
 Facultad de CC. Económicas y Empresariales 
-
+-->
 Universidad Autónoma de Madrid 
 
 28049 Cantoblanco (Madrid) SPAIN
