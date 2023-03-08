@@ -6,7 +6,7 @@
 
 **Publications**
 
-* **Autarky in Franco's Spain: the costs of a closed economy** (with [Rolf Campos](https://rolf-campos.github.io/) and Jacopo Timini), *Economic History Review* (forthcoming). [WP version](https://ilianareggio.github.io/myLib/wp-franco-borders.pdf), [Online Appendix](https://ilianareggio.github.io/myLib/campos-2023-franco-appendix.pdf), [Replication package](https://zenodo.org/record/7472751#.Y9d_aXbMJEY)
+* **Autarky in Franco's Spain: the costs of a closed economy** (with [Rolf Campos](https://rolf-campos.github.io/) and Jacopo Timini), *Economic History Review* (forthcoming). [PDF](https://ilianareggio.github.io/myLib/ehr-2023-franco.pdf), [Online Appendix](https://ilianareggio.github.io/myLib/campos-2023-franco-appendix.pdf), [Replication package](https://zenodo.org/record/7472751#.Y9d_aXbMJEY)
 
 * **Moral Hazard versus Liquidity and the Optimal Timing of Unemployment Benefits** (with [Rolf Campos](https://rolf-campos.github.io/) and [J. Ignacio García-Pérez](https://sites.google.com/view/jigarper/home)), *The Economic Journal* (2022), Vol 132, Issue 648, 2674-2701. [Journal version](https://doi.org/10.1093/ej/ueac034) [WP version](https://ilianareggio.github.io/myLib/ej-2022-mh-liq.pdf)
 
