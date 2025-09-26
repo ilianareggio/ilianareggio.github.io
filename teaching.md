@@ -2,8 +2,8 @@
 #### UAM
 
 #### This semester: 
-Macroeconomía Dinámica
-Crecimiento Económico
+Macroeconomía Dinámica  
+Crecimiento Económico  
 Macroeconomía: Economía Abierta e inflación
 
 #### Past semesters:
