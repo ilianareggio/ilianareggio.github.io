@@ -6,6 +6,8 @@
 
 **Publications**
 
+* **ge_gravity2: a command for solving universal gravity models** (with [Rolf Campos](https://rolf-campos.github.io/) and Jacopo Timini), *The Stata Journal* (forthcoming). [Stata command](https://rolf-campos.github.io/project/ge_gravity2/)
+
 * **Autarky in Franco's Spain: the costs of a closed economy** (with [Rolf Campos](https://rolf-campos.github.io/) and Jacopo Timini), *Economic History Review* (2023), Vol 76, Issue 4, 1259-1280. [PDF](https://ilianareggio.github.io/myLib/ehr-2023-franco.pdf), [Online Appendix](https://ilianareggio.github.io/myLib/campos-2023-franco-appendix.pdf), [Replication package](https://zenodo.org/record/7472751#.Y9d_aXbMJEY), [Journal version](https://onlinelibrary.wiley.com/doi/10.1111/ehr.13243)
 
 * **Moral Hazard versus Liquidity and the Optimal Timing of Unemployment Benefits** (with [Rolf Campos](https://rolf-campos.github.io/) and [J. Ignacio García-Pérez](https://sites.google.com/view/jigarper/home)), *The Economic Journal* (2022), Vol 132, Issue 648, 2674-2701. [Journal version](https://doi.org/10.1093/ej/ueac034) [WP version](https://ilianareggio.github.io/myLib/ej-2022-mh-liq.pdf)
