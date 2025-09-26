@@ -2,12 +2,13 @@
 #### UAM
 
 #### This semester: 
-Macroeconomía: Economía Cerrada  
-Macroeconomía Dinámica  
+Macroeconomía Dinámica
+Crecimiento Económico
+Macroeconomía: Economía Abierta e inflación
 
 #### Past semesters:
 Microeconomía  
-Macroeconomía: Economía Abierta e inflación  
+Macroeconomía: Economía Cerrada 
 
 #### Past courses at GU  
 Mathematical Methods in Economics  
